@@ -7,10 +7,10 @@ Array.prototype이 가지고 있는 리듀스라는 함수다. 이 리듀스는 
 Reduce는 구조가 좀 특이하다. 일단 파라미터로 두가지를 받을 수 있는데 콜백함수와 초기값이다. 그런데 이 콜백에 4가지 파라미터가 있으나 2개가 필수 2개가 optinal이다. 보기쉽게 구조를 그려보자.
 
 ```markdown
-- **reduce**
-  - **callback**
-    - **total** // 누적 값
-    - **currentValue** // 현재 값
+- reduce\*
+  - callback\*
+    - total\* // 누적 값
+    - currentValue\* // 현재 값
     - currentIndex
     - arr // reduce가 호출된 배열
   - initialValue // 초기값
